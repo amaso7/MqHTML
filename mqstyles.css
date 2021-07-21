@@ -1,0 +1,79 @@
+#menu {
+    background-color: black;
+    color: white;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+
+
+
+
+@media (min-width: 1281px) {
+    
+    body {
+        background-color: white;
+    }
+
+    #menu {
+        background-color: #333;
+        color: white;
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+    #content {
+        display: flex; 
+        flex-direction: row;
+        align-items: center;
+        height: auto;
+       
+        
+        
+        
+    }
+    #label{
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        height: fit-content;
+        margin: 100;  
+    }
+    #ad-image {
+        background-image: url("C:\Users\saadh\Downloads\Screenshot 2021-07-21 at 14-20-08 DigitalCraftsStudents web-ft-07-2021.png");
+        display: none;
+        
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1280px) {
+    
+    #menu {
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+    #content {
+        display: flex; 
+        flex-direction: column;
+        justify-content:center;
+        height: auto;
+           
+    }
+    #label{
+        display: flex; 
+        flex-direction: column;
+        justify-content:center;
+        margin: auto;
+        font-size: 25px;   
+    }
+    #ad-image {
+        background-image: url("C:\Users\saadh\Downloads\Screenshot 2021-07-21 at 14-20-08 DigitalCraftsStudents web-ft-07-2021.png");
+        
+    }
+}
